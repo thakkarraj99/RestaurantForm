@@ -36,6 +36,10 @@
             <p>
                 <asp:Label ID="Label2" runat="server" Text="Last Name;"></asp:Label><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             </p>
+            <div class="control">
+                <asp:Button ID="Button3" runat="server" OnClick="rememberMeEvent" CssClass="button" Text="Remember Me" />
+                <asp:Label ID="Label10" runat="server"></asp:Label>
+            </div>
             <asp:Label ID="Label3" runat="server" Text="City:"></asp:Label><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
             <p>
                 <asp:Label ID="Label4" runat="server" Text="Postal Code:"></asp:Label>
@@ -46,7 +50,7 @@
             <p>
 
                 <asp:Label ID="Label6" runat="server" Text="Province:"></asp:Label><asp:DropDownList ID="DropDownList1"
-                    runat="server">
+                    runat="server" TabIndex="3">
                     <asp:ListItem>Alberta</asp:ListItem>
                     <asp:ListItem>British Columbia</asp:ListItem>
                     <asp:ListItem>Manitoba</asp:ListItem>
@@ -57,28 +61,41 @@
                     <asp:ListItem>Quebec</asp:ListItem>
                 </asp:DropDownList>
             </p>
+           
             <asp:Label ID="Label7" runat="server" Text="Food and Drinks:"></asp:Label>
-            <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-                <asp:ListItem>Butter Chicken Poutine</asp:ListItem>
-                <asp:ListItem>Veggie Works</asp:ListItem>
-                <asp:ListItem>Premium Dog</asp:ListItem>
-                <asp:ListItem>Chili Cheese Fries</asp:ListItem>
-                <asp:ListItem>Beef Lovers Poutine</asp:ListItem>
-                <asp:ListItem>Poutine</asp:ListItem>
-                <asp:ListItem>Double Cheese Sandwich</asp:ListItem>
-                <asp:ListItem>Fountain Drinks</asp:ListItem>
-            </asp:CheckBoxList>
+            <br />
+            <p>
+             <asp:CheckBox ID="CheckBox1" runat="server" Text="Samosa" />
+            </p>
+            <p>
+                <asp:CheckBox ID="CheckBox2" runat="server" Text="Pav Bhaji" />
+            </p>
+            <p>
+                <asp:CheckBox ID="CheckBox3" runat="server" Text="Biryani" />
+            </p>
+            <p>
+                <asp:CheckBox ID="CheckBox4" runat="server" Text="Paneer Butter Masal" />
+            </p>
+            <p>
+                <asp:CheckBox ID="CheckBox5" runat="server" Text="Naan" />
+            </p>
+            <p>
+                <asp:CheckBox ID="CheckBox6" runat="server" Text="Daal Tadka" />
+            </p>
+            <p>
+                <asp:CheckBox ID="CheckBox7" runat="server" Text="Lassi" />
+            </p>
             <br />
             <p>
                 <asp:Label ID="Label8" runat="server" Text="Pickup or Deliery:"></asp:Label><asp:RadioButtonList ID="RadioButtonList1" runat="server">
                     <asp:ListItem>Pick-up</asp:ListItem>
                     <asp:ListItem>Delivery</asp:ListItem>
                 </asp:RadioButtonList>
-            </p>
+               
             <asp:Label ID="Label9" runat="server" Text="Comments:"></asp:Label><asp:TextBox ID="TextBox6" runat="server" Columns="50" Height="100px" Width="200px"></asp:TextBox>
             <p>
                 <div class="control">
-  <asp:Button ID="Button2" runat="server" CssClass="button" Text="Order Now" />
+  <asp:Button ID="Button2" runat="server" CssClass="button" Text="Order Now" OnClick="orderEvent" />
 </div>
          </p>
         </form>
