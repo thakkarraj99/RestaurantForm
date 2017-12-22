@@ -33,3 +33,7 @@ C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantFo
 C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantForm\obj\Release\RestaurantForm.dll
 C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantForm\obj\Release\RestaurantForm.pdb
 C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantForm\obj\Release\RestaurantForm.csproj.CoreCompileInputs.cache
+C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantForm\bin\MySql.Data.dll
+C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantForm\bin\MySql.Data.xml
+C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantForm\bin\MySql.Web.dll
+C:\Users\Mogli\documents\visual studio 2017\Projects\RestaurantForm\RestaurantForm\bin\MySql.Web.xml
